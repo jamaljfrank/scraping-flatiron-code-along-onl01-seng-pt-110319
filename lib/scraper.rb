@@ -11,6 +11,7 @@ class Scraper
   
   def get_courses
     http://learn-co-curriculum.github.io/site-for-scraping/courses.
+    
     doc.css("h2").text
   end
   
