@@ -12,12 +12,13 @@ class Scraper
   def get_courses
     doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
     doc.css("h2")
+    binding.pry
   end
   
   def make_courses
     get_courses.each do |course| 
       course = Course.new
-      course.title = get_courses(".post").css("h2").text
+      
     end
   end
     
