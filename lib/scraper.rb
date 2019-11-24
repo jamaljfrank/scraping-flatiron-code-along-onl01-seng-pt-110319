@@ -11,7 +11,9 @@ class Scraper
   
   def get_courses
     http://learn-co-curriculum.github.io/site-for-scraping/courses.
-    
+    doc.css(".headline-26OIBN").text
+  end
+  
   def print_courses
     self.make_courses
     Course.all.each do |course|
