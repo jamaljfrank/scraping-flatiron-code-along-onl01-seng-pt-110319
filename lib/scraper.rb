@@ -21,7 +21,7 @@ class Scraper
       course = Course.new
       course.title = 
       
-    end
+    
   end
     
   
