@@ -10,7 +10,7 @@ class Scraper
   end
   
   def get_courses
-    
+    http://learn-co-curriculum.github.io/site-for-scraping/courses.
     
   def print_courses
     self.make_courses
