@@ -17,7 +17,7 @@ class Scraper
   
   def make_courses
     get_courses.each do |course| 
-      course = Course.new
+      course.text = Course.new
       
     end
   end
