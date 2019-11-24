@@ -10,7 +10,7 @@ class Scraper
   end
   
   def get_courses
-    get_page
+    doc = Nokogiri::HTML(open("https://flatironschool.com/"))
     doc.css("h2").text
   end
   
